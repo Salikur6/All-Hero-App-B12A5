@@ -18,7 +18,7 @@ const Navbar = () => {
                             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow font-semibold gap-4">
                             <NavLink to='/'>Home</NavLink>
                             <NavLink to='/app'>Apps</NavLink>
-                            <NavLink to='/installed'>Installation</NavLink>
+                            <NavLink to='/installedapps'>Installation</NavLink>
                         </ul>
                     </div>
                     <Link to='/' className="cursor-pointer btn-ghost text-xl flex items-center gap-1"><img className='w-10 h-10 mr-1' src={logo} alt="" /><span className='font-bold  text-[#6933E5]'>All Hero App</span></Link>
@@ -27,7 +27,7 @@ const Navbar = () => {
                     <ul className="menu menu-horizontal px-1 font-semibold text-base gap-8">
                         <NavLink to='/'>Home</NavLink>
                         <NavLink to='/app'>Apps</NavLink>
-                        <NavLink to='/installed'>Installation</NavLink>
+                        <NavLink to='/installedapps'>Installation</NavLink>
                     </ul>
                 </div>
                 <div className="navbar-end">
