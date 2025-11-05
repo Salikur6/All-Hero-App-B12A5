@@ -21,7 +21,7 @@ const Navbar = () => {
                             <NavLink to='/installedapps'>Installation</NavLink>
                         </ul>
                     </div>
-                    <Link to='/' className="cursor-pointer btn-ghost text-xl flex items-center gap-1"><img className='w-10 h-10 mr-1' src={logo} alt="" /><span className='font-bold  text-[#6933E5]'>All Hero App</span></Link>
+                    <Link to='/' className="cursor-pointer btn-ghost text-xl flex items-center gap-1"><img className='w-10 h-10 mr-1' src={logo} alt="" /><span className='font-bold  text-[#6933E5]'>Hero App</span></Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1 font-semibold text-base gap-8">

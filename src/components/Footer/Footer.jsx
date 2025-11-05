@@ -9,7 +9,7 @@ const Footer = () => {
                 <nav className="grid grid-flow-col gap-4">
                     <NavLink to='/'>Home</NavLink>
                     <NavLink to='/app'>Apps</NavLink>
-                    <NavLink to='/installed'>Installation</NavLink>
+                    <NavLink to='/installedapps'>Installation</NavLink>
                 </nav>
                 <nav className='w-full'>
                     <div className="grid grid-flow-col gap-4 justify-evenly w-full">

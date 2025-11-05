@@ -6,6 +6,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router'
 import Home from './components/Home/Home.jsx'
 import AllApps from './components/AllApps/AllApps.jsx'
 import InstalledApps from './components/InstalledApps/InstalledApps.jsx'
+import NotFound from './components/NotFound/NotFound.jsx'
 
 const router = createBrowserRouter([
   {
@@ -20,9 +21,14 @@ const router = createBrowserRouter([
       },
       {
         path: 'installedapps', Component: InstalledApps
-      }
+      },
+      {
+        path: '*', Component: NotFound,
+      },
     ]
-  }
+  },
+
+
 ])
 
 createRoot(document.getElementById('root')).render(
