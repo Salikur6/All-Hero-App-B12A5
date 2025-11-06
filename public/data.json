@@ -1,0 +1,362 @@
+[
+  {
+    "image": "https://i0.wp.com/amfblog.s3.amazonaws.com/wp-content/uploads/2018/03/27101627/forest5.png?resize=300%2C300&ssl=1",
+    "title": "Forest: Focus for Productivity",
+    "companyName": "GreenMind Apps",
+    "id": 1,
+    "description": "Stay focused and plant virtual trees as you work. The more you stay away from your phone, the more your forest grows.",
+    "size": 268,
+    "reviews": 32000,
+    "ratingAvg": 4.8,
+    "downloads": "9.5M",
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 2600 },
+      { "name": "4 star", "count": 9000 },
+      { "name": "5 star", "count": 17400 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuu6q0v7VfKbhmzFm77bfeiAr7TVbp-Zjgrg&s",
+    "title": "Focus Timer Pro",
+    "companyName": "TimeBox Studios",
+    "id": 2,
+    "description": "Pomodoro-style focus timer to help you manage time and stay productive with sound notifications.",
+    "size": 190,
+    "reviews": 25000,
+    "ratingAvg": 4.6,
+    "downloads": "8.8M",
+    "ratings": [
+      { "name": "1 star", "count": 1100 },
+      { "name": "2 star", "count": 1400 },
+      { "name": "3 star", "count": 3200 },
+      { "name": "4 star", "count": 8000 },
+      { "name": "5 star", "count": 11300 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOTQonqRSGqDOWhUPGe5PvO8wD6GU4vBm0Wg&s",
+    "title": "SmPlan: ToDo List with Reminder",
+    "companyName": "Productive.io",
+    "id": 3,
+    "description": "Organize your day with smart task lists, reminders, and recurring schedules that sync across devices.",
+    "size": 291,
+    "reviews": 54000,
+    "ratingAvg": 4.9,
+    "downloads": "8M",
+    "ratings": [
+      { "name": "1 star", "count": 900 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 2200 },
+      { "name": "4 star", "count": 6400 },
+      { "name": "5 star", "count": 13000 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUrShpgtdYMKxfHVAoVBrnKsm5nShx21KpbQ&s",
+    "title": "Alarmy - Wake Up Alarm",
+    "companyName": "Delight Apps",
+    "id": 4,
+    "description": "Smart alarm that forces you to complete small tasks to stop ringing — ideal for heavy sleepers.",
+    "size": 256,
+    "reviews": 44000,
+    "ratingAvg": 4.7,
+    "downloads": "8.7M",
+    "ratings": [
+      { "name": "1 star", "count": 1000 },
+      { "name": "2 star", "count": 1800 },
+      { "name": "3 star", "count": 4000 },
+      { "name": "4 star", "count": 7500 },
+      { "name": "5 star", "count": 14800 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTo0n1uzmStvQlucOZli0SUEqtHtHf0iXmhA&s",
+    "title": "Pomocat – Cute Pomodoro Timer",
+    "companyName": "StudySoft Ltd.",
+    "id": 5,
+    "description": "Focus with adorable cat animations. Complete study sessions and collect playful feline companions.",
+    "size": 212,
+    "reviews": 30000,
+    "ratingAvg": 4.8,
+    "downloads": "7.6M",
+    "ratings": [
+      { "name": "1 star", "count": 700 },
+      { "name": "2 star", "count": 1300 },
+      { "name": "3 star", "count": 2800 },
+      { "name": "4 star", "count": 7000 },
+      { "name": "5 star", "count": 14200 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPNLcKNGhdlN9gdS2Mk11X0Ro4uzR3rbxyRw&s",
+    "title": "Time Planner: Schedule & Tasks",
+    "companyName": "NextGen Tech",
+    "id": 6,
+    "description": "A clean and fast app to manage your time efficiently with charts and reminders.",
+    "size": 232,
+    "reviews": 52000,
+    "ratingAvg": 4.9,
+    "downloads": "9.1M",
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 2000 },
+      { "name": "4 star", "count": 8300 },
+      { "name": "5 star", "count": 16200 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcc_QMscWdWP-pizkmZ8vof7E_iUUToanweQ&s",
+    "title": "Morning Habits – Daily Routine",
+    "companyName": "HabitWorks",
+    "id": 7,
+    "description": "Create and track morning habits that boost your mood and productivity every day.",
+    "size": 280,
+    "reviews": 39000,
+    "ratingAvg": 4.7,
+    "downloads": "7M",
+    "ratings": [
+      { "name": "1 star", "count": 1000 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 2500 },
+      { "name": "4 star", "count": 6000 },
+      { "name": "5 star", "count": 11000 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6GC_YQHRMmXuCzVhh1REHAHTMMZ8IxNKu-g&s",
+    "title": "Focus Plant: Pomodoro Forest",
+    "companyName": "GreenLab Apps",
+    "id": 8,
+    "description": "Earn rewards by staying focused. Grow cute plants and manage your study sessions.",
+    "size": 210,
+    "reviews": 46000,
+    "ratingAvg": 4.8,
+    "downloads": "8.5M",
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 2300 },
+      { "name": "4 star", "count": 7200 },
+      { "name": "5 star", "count": 14300 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQti_jP98SNdTNrAMwmadLZ1RVQmW0LuLICFA&s",
+    "title": "QuickNote – Smart Notepad",
+    "companyName": "Zen Productivity",
+    "id": 9,
+    "description": "Minimal note-taking app that syncs across your devices. Supports markdown and offline mode.",
+    "size": 180,
+    "reviews": 21000,
+    "ratingAvg": 4.5,
+    "downloads": "6.2M",
+    "ratings": [
+      { "name": "1 star", "count": 1200 },
+      { "name": "2 star", "count": 1800 },
+      { "name": "3 star", "count": 3000 },
+      { "name": "4 star", "count": 5400 },
+      { "name": "5 star", "count": 8600 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRknlkReCG5Ho3vYTrVZm-yGpCIdpYJlB850g&s",
+    "title": "SmartBudget – Expense Tracker",
+    "companyName": "FinTrackers",
+    "id": 10,
+    "description": "Track your income and expenses effortlessly with real-time analytics and budget reminders.",
+    "size": 300,
+    "reviews": 35000,
+    "ratingAvg": 4.8,
+    "downloads": "7.8M",
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 1100 },
+      { "name": "3 star", "count": 2500 },
+      { "name": "4 star", "count": 7000 },
+      { "name": "5 star", "count": 13000 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/K3JWsiB0w65UuA9lcBFsjQogd9pztF-KsH8PpcD7FpTHk-h7_WRNFJhiClZSch96d5o=w1052-h592-rw",
+    "title": "SkyCast – Weather Pro",
+    "companyName": "MeteoLabs",
+    "id": 11,
+    "description": "Detailed weather forecasts, real-time alerts, and beautiful visualizations for all cities.",
+    "size": 275,
+    "reviews": 29000,
+    "ratingAvg": 4.6,
+    "downloads": "8.3M",
+    "ratings": [
+      { "name": "1 star", "count": 1400 },
+      { "name": "2 star", "count": 1800 },
+      { "name": "3 star", "count": 3400 },
+      { "name": "4 star", "count": 7200 },
+      { "name": "5 star", "count": 10200 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/IUiQ5fF79MxizqeFzD8yf44aTk7ZHzIsPnjcfrfrgEJCFqQffO2RVb4-x7OOssE6DrA=w526-h296-rw",
+    "title": "BeatFlow – Music Player",
+    "companyName": "Audioverse",
+    "id": 12,
+    "description": "Offline music player with equalizer, playlists, and cloud backup.",
+    "size": 330,
+    "reviews": 56000,
+    "ratingAvg": 4.7,
+    "downloads": "9.7M",
+    "ratings": [
+      { "name": "1 star", "count": 1000 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 2800 },
+      { "name": "4 star", "count": 8800 },
+      { "name": "5 star", "count": 16400 }
+    ]
+  },
+  {
+    "image": "https://tryfittrack.com/cdn/shop/articles/Frame_427319320_1.png?v=1689703146",
+    "title": "FitTrack – Diet Planner",
+    "companyName": "Healthify",
+    "id": 13,
+    "description": "Plan your meals, track calories, and get fitness recommendations based on your goals.",
+    "size": 250,
+    "reviews": 41000,
+    "ratingAvg": 4.7,
+    "downloads": "7.6M",
+    "ratings": [
+      { "name": "1 star", "count": 900 },
+      { "name": "2 star", "count": 1300 },
+      { "name": "3 star", "count": 2700 },
+      { "name": "4 star", "count": 6700 },
+      { "name": "5 star", "count": 12400 }
+    ]
+  },
+  {
+    "image": "https://s3-figma-hubfile-images-production.figma.com/hub/file/carousel/img/2ace7966a7512be155f744956cd50463b9ad933d/76162f5c6be7e4aa363d165e13dc7055d439ba98",
+    "title": "SmartCalendar Pro",
+    "companyName": "DaySync Labs",
+    "id": 14,
+    "description": "A modern calendar app that integrates with tasks, events, and smart scheduling.",
+    "size": 295,
+    "reviews": 38000,
+    "ratingAvg": 4.8,
+    "downloads": "7.1M",
+    "ratings": [
+      { "name": "1 star", "count": 700 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 2400 },
+      { "name": "4 star", "count": 6400 },
+      { "name": "5 star", "count": 12800 }
+    ]
+  },
+  {
+    "image": "https://s3-ap-southeast-2.amazonaws.com/wc-prod-pim/JPEG_1000x1000/SMFCADD1_studymate_addition_flash_cards_52_pack.jpg",
+    "title": "StudyMate – Flashcards",
+    "companyName": "EduApps",
+    "id": 15,
+    "description": "Create flashcards, study decks, and quiz yourself anywhere anytime.",
+    "size": 230,
+    "reviews": 34000,
+    "ratingAvg": 4.6,
+    "downloads": "6.7M",
+    "ratings": [
+      { "name": "1 star", "count": 1000 },
+      { "name": "2 star", "count": 1400 },
+      { "name": "3 star", "count": 2900 },
+      { "name": "4 star", "count": 6200 },
+      { "name": "5 star", "count": 10500 }
+    ]
+  },
+  {
+    "image": "https://s3.remitano.com/uploads/markdown_image/attachment/80295/normal_Remitano_Bitcoin_vault_Mining_city.jpg",
+    "title": "CoinVault – Crypto Tracker",
+    "companyName": "FinEdge",
+    "id": 16,
+    "description": "Track real-time crypto prices, manage portfolios, and set alerts for market changes.",
+    "size": 340,
+    "reviews": 47000,
+    "ratingAvg": 4.7,
+    "downloads": "8.8M",
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 1300 },
+      { "name": "3 star", "count": 2600 },
+      { "name": "4 star", "count": 7000 },
+      { "name": "5 star", "count": 14000 }
+    ]
+  },
+  {
+    "image": "https://i5.walmartimages.com/seo/Language-Translator-Device-137-Languages-Portable-Two-Way-Instant-Translator-Offline-Online-Voice-Photo-Translation-for-Business-Learning-White_05162662-1aa0-4aa9-8adb-52c6f972eff7.a1c2eba485cd53f55050c31eb0416836.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF",
+    "title": "LinguaGo – Instant Translator",
+    "companyName": "LinguaTech",
+    "id": 17,
+    "description": "Translate text, voice, and images in over 100 languages with offline mode support.",
+    "size": 280,
+    "reviews": 60000,
+    "ratingAvg": 4.9,
+    "downloads": "10.5M",
+    "ratings": [
+      { "name": "1 star", "count": 700 },
+      { "name": "2 star", "count": 1000 },
+      { "name": "3 star", "count": 2400 },
+      { "name": "4 star", "count": 7800 },
+      { "name": "5 star", "count": 18100 }
+    ]
+  },
+  {
+    "image": "https://www.kerrymaymakes.com/uploads/8/9/0/0/89001728/edited/self-care-bullet-journal-kerrymay-makes-min_1.jpg?1600527043",
+    "title": "MoodLog – Personal Journal",
+    "companyName": "Mindify Labs",
+    "id": 18,
+    "description": "Track your daily emotions, write reflections, and monitor your mental wellness progress.",
+    "size": 200,
+    "reviews": 31000,
+    "ratingAvg": 4.8,
+    "downloads": "6.4M",
+    "ratings": [
+      { "name": "1 star", "count": 900 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 2100 },
+      { "name": "4 star", "count": 5800 },
+      { "name": "5 star", "count": 11000 }
+    ]
+  },
+  {
+    "image": "https://lh3.googleusercontent.com/krWO4eRrhBtY-arcMay4SvCNLvFHwtFtKHtR291yG7XireXKwLXHJO4RWTJ2oMJcweA2s6jIsicy1zlIPjmJzgQr3Fk=s1280-w1280-h800",
+    "title": "Snaply – Photo Editor",
+    "companyName": "PixlCraft",
+    "id": 19,
+    "description": "Edit your photos easily with filters, retouch tools, and one-tap background removal.",
+    "size": 370,
+    "reviews": 55000,
+    "ratingAvg": 4.7,
+    "downloads": "9.7M",
+    "ratings": [
+      { "name": "1 star", "count": 1200 },
+      { "name": "2 star", "count": 1600 },
+      { "name": "3 star", "count": 3200 },
+      { "name": "4 star", "count": 7800 },
+      { "name": "5 star", "count": 14200 }
+    ]
+  },
+  {
+    "image": "https://lirp.cdn-website.com/013c49cb/dms3rep/multi/opt/DALL-E+2024-11-12+10.35.17+-+A+tranquil+meditation+scene+in+nature+with+a+person+sitting+cross-legged+on+a+cushion+by+a+serene+lake.+The+person+is+more+recognizable+with+human+fea-1920w.webp",
+    "title": "Calmi – Meditation & Relax",
+    "companyName": "Zenify Inc.",
+    "id": 20,
+    "description": "Meditation, sleep sounds, and relaxation exercises to reduce stress and anxiety.",
+    "size": 310,
+    "reviews": 62000,
+    "ratingAvg": 4.9,
+    "downloads": "11M",
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 2400 },
+      { "name": "4 star", "count": 8200 },
+      { "name": "5 star", "count": 19000 }
+    ]
+  }
+]

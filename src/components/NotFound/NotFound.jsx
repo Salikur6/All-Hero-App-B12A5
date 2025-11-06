@@ -5,7 +5,7 @@ import { Link, Navigate, useNavigate } from 'react-router';
 const NotFound = () => {
     const navigate = useNavigate();
     return (
-        <div className='bg-[#F5F5F5] py-10'>
+        <div className='bg-[#F5F5F5] py-10 px-4'>
 
             <div className='flex flex-col justify-center items-center h-3/4'>
                 <div>

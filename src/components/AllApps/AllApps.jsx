@@ -1,8 +1,15 @@
-import React from 'react';
 import { FaSearch } from 'react-icons/fa';
 import AppCards from '../AppCards/AppCards';
+import { Suspense } from 'react';
+import { useLoaderData } from 'react-router';
+
+// const fetchData = fetch('./data.json').then(res => res.json())
 
 const AllApps = () => {
+    // const data = fetchData()
+    const loader = useLoaderData()
+    // console.log(loader)
+    // const data = use(fetchData)
     return (
         <div className='bg-[#F5F5F5]'>
             <div className=' max-w-7xl mx-auto px-4 py-20'>
@@ -30,7 +37,9 @@ const AllApps = () => {
 
                 <div>
 
-                    <AppCards></AppCards>
+                    <Suspense fallback={<span className="loading loading-bars loading-xl"></span>}>
+                        <AppCards loader={loader}></AppCards>
+                    </Suspense>
                 </div>
             </div>
         </div>
