@@ -21,9 +21,6 @@ const TopApps = ({ app }) => {
             <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mb-4'>
                 {slicedData.map(d => (
 
-
-
-
                     <Link key={d.id} to={`/appdetails/${d.id}`}>
                         <div onClick={() => handleAppDetails(d.id)} className="card bg-base-100 justify-between p-4 shadow-sm cursor-pointer">
                             <figure>

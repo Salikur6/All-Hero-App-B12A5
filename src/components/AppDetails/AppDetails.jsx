@@ -1,9 +1,8 @@
 import React, { use } from 'react';
-import demoImg from '../../../images/demo-app (2).webp'
 import review from '../../../images/icon-review.png'
 import { FaDownload, FaStar } from 'react-icons/fa';
 import VerticalBarChart from './VerticalBarChart';
-import { useLoaderData, useParams } from 'react-router';
+import { useParams } from 'react-router';
 
 const fetchData = fetch('/data.json').then(res => res.json());
 

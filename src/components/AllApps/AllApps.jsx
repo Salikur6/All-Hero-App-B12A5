@@ -1,14 +1,27 @@
 import { FaSearch } from 'react-icons/fa';
 import AppCards from '../AppCards/AppCards';
-import { Suspense } from 'react';
+import { Suspense, useState } from 'react';
 import { useLoaderData } from 'react-router';
+import NoAppFound from './NoAppFound';
 
 // const fetchData = fetch('./data.json').then(res => res.json())
 
 const AllApps = () => {
+    const [search, setSearch] = useState('');
     // const data = fetchData()
     const loader = useLoaderData()
-    // console.log(loader)
+    console.log(search)
+
+
+
+
+    const trimed = search.trim().toLowerCase();
+    console.log(trimed)
+
+    const searchedData = trimed ? loader.filter(data => data.title.toLowerCase().includes(trimed)) : loader;
+    console.log(searchedData)
+
+
     // const data = use(fetchData)
     return (
         <div className='bg-[#F5F5F5]'>
@@ -22,12 +35,12 @@ const AllApps = () => {
 
                 <div className='mt-10 mb-4 sm:flex items-center sm:justify-between text-center'>
 
-                    <p className='text-2xl font-semibold  mb-4'>(20) Apps Found</p>
+                    <p className='text-2xl font-semibold  mb-4'>({searchedData.length}) Apps Found</p>
 
                     <div className=' items-center color-[#627382]'>
                         <label className="input">
                             <FaSearch />
-                            <input type="search" className="grow" placeholder="Search Apps" />
+                            <input onChange={(e) => setSearch(e.target.value)} type="search" className="grow" placeholder="Search Apps" />
                             <kbd className="kbd kbd-sm">⌘</kbd>
                             <kbd className="kbd kbd-sm">K</kbd>
                         </label>
@@ -38,7 +51,7 @@ const AllApps = () => {
                 <div>
 
                     <Suspense fallback={<span className="loading loading-bars loading-xl"></span>}>
-                        <AppCards loader={loader}></AppCards>
+                        {searchedData.length > 0 ? <AppCards searchedData={searchedData}></AppCards> : <NoAppFound></NoAppFound>}
                     </Suspense>
                 </div>
             </div>
