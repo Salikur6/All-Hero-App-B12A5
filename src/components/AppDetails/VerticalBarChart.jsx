@@ -12,7 +12,7 @@ import {
 export default function VerticalBarChart({ isAnimationActive = true, clickedData }) {
     // console.log(clickedData)
     const rating = clickedData.ratings
-    console.log(rating)
+    // console.log(rating)
     return (
         <div className="w-full h-72">
             <ResponsiveContainer width='100%' height={300}>

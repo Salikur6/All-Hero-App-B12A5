@@ -7,10 +7,6 @@ const TopApps = ({ app }) => {
 
 
 
-    // console.log(app)
-    const handleAppDetails = id => {
-        console.log(id)
-    }
     const slicedData = Array.isArray(app) ? app.slice(0, 8) : []
     return (
         <div className='max-w-7xl mx-auto py-20 px-4'>
@@ -22,7 +18,7 @@ const TopApps = ({ app }) => {
                 {slicedData.map(d => (
 
                     <Link key={d.id} to={`/appdetails/${d.id}`}>
-                        <div onClick={() => handleAppDetails(d.id)} className="card bg-base-100 justify-between p-4 shadow-sm cursor-pointer">
+                        <div className="card bg-base-100 justify-between p-4 shadow-sm cursor-pointer">
                             <figure>
                                 <img className='h-[285px]'
                                     src={d.image}

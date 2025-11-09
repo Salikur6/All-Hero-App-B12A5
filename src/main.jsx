@@ -9,6 +9,13 @@ import InstalledApps from './components/InstalledApps/InstalledApps.jsx'
 import NotFound from './components/NotFound/NotFound.jsx'
 import AppDetails from './components/AppDetails/AppDetails.jsx'
 
+
+const data = async () => {
+  const res = await fetch('/data.json');
+  return res.json();
+
+}
+
 const router = createBrowserRouter([
   {
     path: '/',
@@ -16,8 +23,7 @@ const router = createBrowserRouter([
     children: [
       {
         index: true, Component: Home,
-        loader: () => fetch('../data.json'),
-        HydrateFallback: () => <span className="loading loading-bars loading-xl"></span>,
+        loader: data,
 
         // shouldRevalidate: () => true,
 
@@ -25,15 +31,20 @@ const router = createBrowserRouter([
       },
       {
         path: 'app', Component: AllApps,
-        loader: () => fetch('../data.json'),
-        HydrateFallback: () => <span className="loading loading-bars loading-xl"></span>,
+        loader: data
       },
       {
         path: 'installedapps', Component: InstalledApps
       },
       {
         path: 'appdetails/:id', Component: AppDetails,
-        loader: ({ params }) => fetch(`../data.json/${params.id}`)
+        loader: async ({ params }) => {
+          const res = await fetch('/data.json');
+          const data = await res.json();
+          const app = data.find(d => d.id === parseInt(params.id))
+
+          return app;
+        }
       },
       {
         path: '*', Component: NotFound,

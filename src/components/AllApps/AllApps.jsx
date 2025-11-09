@@ -1,6 +1,6 @@
 import { FaSearch } from 'react-icons/fa';
 import AppCards from '../AppCards/AppCards';
-import { Suspense, useState } from 'react';
+import { Suspense, useEffect, useState } from 'react';
 import { useLoaderData } from 'react-router';
 import NoAppFound from './NoAppFound';
 
@@ -8,18 +8,26 @@ import NoAppFound from './NoAppFound';
 
 const AllApps = () => {
     const [search, setSearch] = useState('');
+    const [loading, setLoading] = useState(false);
+
     // const data = fetchData()
     const loader = useLoaderData()
-    console.log(search)
+    // console.log(search)
 
+    const [searchedDataState, setSearchedData] = useState(loader)
 
+    useEffect(() => {
+        setLoading(true)
 
+        const delay = setTimeout(() => {
+            const trimed = search.trim().toLowerCase();
+            // console.log(trimed)
 
-    const trimed = search.trim().toLowerCase();
-    console.log(trimed)
-
-    const searchedData = trimed ? loader.filter(data => data.title.toLowerCase().includes(trimed)) : loader;
-    console.log(searchedData)
+            const searchedData = trimed ? loader.filter(data => data.title.toLowerCase().includes(trimed)) : loader;
+            setSearchedData(searchedData)
+            setLoading(false)
+        }, 300);
+    }, [search, loader])
 
 
     // const data = use(fetchData)
@@ -35,7 +43,7 @@ const AllApps = () => {
 
                 <div className='mt-10 mb-4 sm:flex items-center sm:justify-between text-center'>
 
-                    <p className='text-2xl font-semibold  mb-4'>({searchedData.length}) Apps Found</p>
+                    <p className='text-2xl font-semibold  mb-4'>({searchedDataState.length}) Apps Found</p>
 
                     <div className=' items-center color-[#627382]'>
                         <label className="input">
@@ -51,7 +59,8 @@ const AllApps = () => {
                 <div>
 
                     <Suspense fallback={<span className="loading loading-bars loading-xl"></span>}>
-                        {searchedData.length > 0 ? <AppCards searchedData={searchedData}></AppCards> : <NoAppFound></NoAppFound>}
+
+                        {loading ? (<span className="loading loading-bars loading-xl"></span>) : searchedDataState.length > 0 ? (<AppCards searchedData={searchedDataState}></AppCards>) : (<NoAppFound></NoAppFound>)}
                     </Suspense>
                 </div>
             </div>

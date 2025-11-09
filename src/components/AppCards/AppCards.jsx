@@ -5,7 +5,7 @@ const AppCards = ({ searchedData }) => {
     // console.log(fetchData)
     // const data = use(fetchData)
 
-    console.log(searchedData)
+    // console.log(searchedData)
     return (
         <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mb-4'>
 

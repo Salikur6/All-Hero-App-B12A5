@@ -1,23 +1,65 @@
-import React, { use } from 'react';
+import React, { useEffect, useState } from 'react';
 import review from '../../../images/icon-review.png'
 import { FaDownload, FaStar } from 'react-icons/fa';
 import VerticalBarChart from './VerticalBarChart';
-import { useParams } from 'react-router';
-
-const fetchData = fetch('/data.json').then(res => res.json());
+import { useLoaderData } from 'react-router';
+import { toast } from 'react-toastify';
 
 const AppDetails = () => {
-    const cardData = use(fetchData);
-    console.log(cardData)
-    const paramid = useParams()
-    // console.log('params id', paramid.id)
-
-    const clickedData = cardData.find(data => data.id === parseInt(paramid.id))
-    console.log(clickedData)
-
+    const clickedData = useLoaderData()
     const text = String(clickedData.reviews).endsWith('000') && clickedData.reviews >= 1000
         ? `${Math.round(clickedData.reviews / 1000)}K`
         : clickedData.reviews.toLocaleString();
+
+
+
+
+
+    const getStoredData = () => {
+        const storedData = localStorage.getItem('installedApp')
+        if (storedData) {
+            const data = JSON.parse(storedData);
+            return data
+        } else {
+            return []
+        }
+    }
+
+
+
+
+
+
+
+    const setToLsData = (data) => {
+        const getData = getStoredData()
+        // getData.push(id);
+        const updateData = [...getData, data]
+        localStorage.setItem('installedApp', JSON.stringify(updateData));
+        return updateData;
+    }
+
+    const [installed, setInstalled] = useState(() => getStoredData());
+
+    useEffect(() => {
+        setInstalled(getStoredData())
+    }, [])
+
+    const handleinstallBtn = (data) => {
+        if (isInstalled) return;
+        const setData = setToLsData(data)
+        setInstalled(setData);
+        toast(`Yahoo!! ${data.title} installed Successfully`)
+    }
+
+    console.log(installed)
+
+
+
+    const isInstalled = installed.find(i => i.id === clickedData.id)
+    // console.log(getStoredData().some(s => s.id === id), id, isInstalled)
+
+    console.log(isInstalled);
     return (
         <div className='bg-[#F5F5F5] py-20 px-4'>
             <div className='max-w-7xl mx-auto'>
@@ -67,8 +109,20 @@ const AppDetails = () => {
                                 </div>
                             </div>
 
+
+                            {/* install now btn  */}
+
                             <div>
-                                <button className='btn btn-accent py-3.5 px-5 text-white font-bold'>Install Now ({clickedData.size} MB)</button>
+                                <button id={`btn-${clickedData.id}`} onClick={() => (handleinstallBtn(clickedData)
+
+
+                                )}
+                                    disabled={isInstalled}
+                                    className={`btn ${isInstalled && 'bg-red-300'} btn-accent py-3.5 px-5 text-white font-bold `}>
+
+                                    {isInstalled ? 'Installed' : ` Install Now (${clickedData.size} MB)`}
+
+                                </button>
                             </div>
 
 
@@ -83,6 +137,16 @@ const AppDetails = () => {
 
 
                 <VerticalBarChart clickedData={clickedData}></VerticalBarChart>
+
+
+                <hr className='opacity-[0.2] my-10' />
+
+
+                <div>
+                    <h3 className='font-semibold text-xl mb-6'>Description</h3>
+
+                    <p className='text-[#627382]'>{clickedData.description}</p>
+                </div>
             </div>
         </div>
     );

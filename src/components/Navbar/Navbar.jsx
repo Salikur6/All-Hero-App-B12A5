@@ -31,7 +31,7 @@ const Navbar = () => {
 
                     </ul>
                 </div>
-                <NavLink to='/appdetails'>App Details</NavLink>
+
                 <div className="navbar-end">
                     <Link to='https://github.com/Salikur6' target="_blank" className="btn py-5 bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-white rounded-sm"><FaGithub className='mr-2.5 text-xl' />
                         <span className='font-bold '>Contribute</span></Link>
