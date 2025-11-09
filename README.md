@@ -1,18 +1,26 @@
+# Hero App Galaxy 🚀
 
-#### 1) What is the difference between var, let, and const?
+### Description
+Hero App Galaxy is a React web app that showcases productivity and lifestyle apps.
+Users can explore, search, and view app details, install them locally, and manage their installed apps.
+It includes charts, sorting, and smooth loading animations for a clean user experience.
 
-- **var** is function scoped and can be redeclared or hoisted, **let** and **const** are block scoped. **let** can change its value , while **const** stays constant once set.
+### Key Features
+- Browse all available applications with real-time search.
+- View detailed app information with ratings, downloads, and reviews.
+- Install or uninstall apps (data saved in LocalStorage).
+- Sort installed apps by downloads (Low–High or High–Low).
+- Animated orbit-style loader during navigation.
+- Interactive charts built with Recharts.
+- Fully responsive UI using Tailwind CSS and DaisyUI.
 
-#### 2) What is the difference between map(), forEach(), and filter()? 
-- **forEach()** just loops.
-- **map()** returns a new array of changed values.
-- **filter()** returns a new array of matching values.  
-
-#### 3) What are arrow functions in ES6?
-- **Arrow functions** are a shorter way to write functions in ES6.  
-
-#### 4) How does destructuring assignment work in ES6?
-- **Destructuring** lets you extract values from arrays or objects and assign them to variables in a concise and readable way. 
-
-#### 5) Explain template literals in ES6. How are they different from string concatenation?
-- Template literals let you embed variables and expressions directly inside backticks (`) using ${}. They’re cleaner than string concatenation because you don’t need + and can also span multiple lines easily.  
+### Technologies Used
+- **React Router DOM**  
+- **React Hooks**   
+- **Recharts**
+- **Tailwind CSS**  
+- **DaisyUI**
+- **React Icons**
+- **React Toastify** 
+- **LocalStorage API** 
+- **Vite**  
